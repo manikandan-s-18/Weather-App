@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #b284d8, #a97195); /* Gradient with light and dark blue */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent black card */
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  width: 270px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  margin: 20px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #f1906d; /* Coral */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6347; /* Tomato */
+}
+
+h2 {
+  margin-top: 10px;
+  color: #ffeb3b; /* Bright Yellow for contrast */
+  font-size: 28px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+code {
+  font-family: 'Courier New', Consolas, monospace;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffeb3b;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+}
